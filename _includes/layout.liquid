@@ -1,5 +1,5 @@
 ---
-title: 11ty Boilerplate
+title: Books
 ---
 
 <!DOCTYPE html>
@@ -7,8 +7,9 @@ title: 11ty Boilerplate
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ title }}</title>
+  <title>{{ Books }}</title>
   <link rel="stylesheet" href="/styles/screen.css">
+  <script src="/java.js"></script>
 </head>
 <body>
   <nav>
@@ -17,6 +18,9 @@ title: 11ty Boilerplate
       <li><a href="/about/" title="About the boilerplate">About</a></li>
     </ul>
   </nav>
+  <h1>My Favorite Books</h1>
+  <ul id="books">
+  </ul>
     {{ content }}
 </body>
 </html>
